@@ -1,14 +1,20 @@
 ---
 titleBreadcrumb: Home
+
+views:
+    byline:
+        region: after-main
+        template: default/content
+        sort: 1
+        data:
+            meta:
+                type: content
+                route: block/byline
 ...
+
 A website using Anax Flat
 ===============================
 
-Hi there.
+Hej! Jag som bygger och underhåller denna sida heter **Josefina Almström**. Sidan är skapad inom ramen för kursen **design** på BTH. Roligt att du har hittat hit!
 
-Nice of you to stop by.
-
-This is a website created using Anax Flat as a base. This is the base website to be used in the dbwebb course *design*.
-
-Cheers and happy building of websites,  
-/Mikael
+![Josefina](img/josi.jpg)
